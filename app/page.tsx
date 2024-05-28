@@ -34,6 +34,7 @@ export default function Home() {
                 />
               </a>
             </div>
+            {/*
             <div className="flex items-center justify-center md:gap-6 text-sm">
               <span className="mt-1">
                 <GitHubButton
@@ -57,6 +58,8 @@ export default function Home() {
                 </a>
               </span>
             </div>
+            */}
+
           </header>
         </div>
 
@@ -68,6 +71,8 @@ export default function Home() {
         {/* height 4rem */}
         <div className=" backdrop-blur-[2px] h-[4rem] flex items-center">
           <footer className="mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8 flex items-center justify-center gap-4 md:text-xl font-inter text-[#8a8a8e]">
+            
+            {/*
             <span className="text-base text-[#4e4e52]">share it</span>
             <a
               href="#"
@@ -124,6 +129,8 @@ export default function Home() {
             >
               contact us
             </a>
+            */}
+
           </footer>
         </div>
       </div>
