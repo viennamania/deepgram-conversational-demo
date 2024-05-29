@@ -57,7 +57,9 @@ export default function RootLayout({
             <AudioStoreContextProvider>
               <NowPlayingContextProvider>
                 <MessageMetadataContextProvider>
-                  <DeepgramContextProvider>{children}</DeepgramContextProvider>
+                  <DeepgramContextProvider>
+                    {children}
+                  </DeepgramContextProvider>
                 </MessageMetadataContextProvider>
               </NowPlayingContextProvider>
             </AudioStoreContextProvider>
